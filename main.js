@@ -37,7 +37,6 @@ function onStartChange() {
     intervalId = setInterval(() => {
         const randomColor = randomIntegerFromInterval(0, colors.length);
         refs.body.style.backgroundColor = colors[randomColor];
-        console.log(colors.length)
     }, DELAY);
 };
 
